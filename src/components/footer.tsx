@@ -17,7 +17,7 @@ export default function Footer() {
   const socialLinks = [
     {
       name: "YouTube",
-      href: "https://www.youtube.com/@itsniloybhowmick",
+      href: "https://www.youtube.com/@HimanshuSingh-hs5oc",
       icon: Youtube,
     },
     {
@@ -119,7 +119,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-white/5 mt-16 pt-8 text-center">
-          <p className="text-gray-500 text-sm flex items-center justify-center gap-1.5">
+          {/* <p className="text-gray-500 text-sm flex items-center justify-center gap-1.5">
             Made with <Heart className="text-red-500 fill-red-500/20" size={14} /> by{" "}
             <a
               href="https://www.linkedin.com/in/mohit-kumar-singh-396a40222/"
@@ -130,7 +130,7 @@ export default function Footer() {
               Mohit Singh
             </a>{" "}
             © {currentYear}
-          </p>
+          </p> */}
         </div>
       </div>
     </footer>
