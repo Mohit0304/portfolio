@@ -6,46 +6,59 @@ import {
   Scissors,
   Sparkles,
   Users,
+  Layers,
   Volume2,
   Zap,
 } from "lucide-react";
 
 export const videoEditingSkills = [
   {
-    name: "DaVinci Resolve",
-    image_link: "/tools/DaVinci_Resolve_Studio.png",
-    icon: Film,
-    description:
-      "Professional color grading, editing, and audio post-production",
-    color: "text-orange-400",
-  },
-  {
     name: "Adobe Premiere Pro",
     image_link: "/tools/Adobe_Premiere_Pro_CC.png",
     icon: Scissors,
     description:
-      "Advanced video editing, multicam sync, and workflow optimization",
+      "Industry-standard video editing with advanced timelines and multicam workflows",
     color: "text-purple-400",
   },
   {
-    name: "After Effects",
+    name: "DaVinci Resolve",
+    image_link: "/tools/DaVinci_Resolve_Studio.png",
+    icon: Film,
+    description:
+      "Professional video editing, cinematic color grading, and audio post-production",
+    color: "text-orange-400",
+  },
+  
+  {
+    name: "Adobe After Effects",
     image_link: "/tools/Adobe_After_Effects_CC.png",
     icon: Sparkles,
-    description: "Motion graphics, visual effects, and advanced animations",
+    description:
+      "Motion graphics, visual effects, compositing, and animations",
     color: "text-blue-400",
   },
   {
     name: "Adobe Photoshop",
     image_link: "/tools/Adobe_Photoshop_CC.png",
     icon: Palette,
-    description: "Thumbnail design, graphics creation, and image manipulation",
+    description:
+      "Thumbnail design, posters, graphics creation, and image manipulation",
     color: "text-cyan-400",
   },
   {
-    name: "Adobe Audition",
-    image_link: "/tools/Adobe_Audition_CC.png",
-    icon: Volume2,
-    description: "Audio editing, noise reduction, and sound enhancement",
+    name: "Edius",
+    image_link: "/tools/edios.png",
+    icon: Layers,
+    description:
+      "Fast, real-time video editing for broadcast and professional workflows",
+    color: "text-red-400",
+  },
+  {
+    name: "CapCut",
+    image_link: "/tools/capcut.png",
+    icon: Zap,
+    description:
+      "Quick edits, short-form content, reels, and social media videos",
     color: "text-green-400",
   },
 ];
@@ -54,9 +67,9 @@ export const specializations = [
   {
     title: "YouTube Content Creation",
     skills: [
-      "Retention Editing",
+      "YouTube Video Editing",
+      "YouTube Shorts Editing",
       "Thumbnail Design",
-      "SEO Optimization",
       "Analytics Understanding",
     ],
     icon: "🎬",
@@ -73,10 +86,10 @@ export const specializations = [
     ],
     icon: "📱",
     description:
-      "Expert in creating content optimized for Instagram, TikTok, and other platforms",
+      "Expert in creating content optimized for Instagram Reels, Moj, and other platforms",
   },
   {
-    title: "Corporate Videos",
+    title: "Coorporate Documentaries",
     skills: [
       "Professional Presentation",
       "Brand Consistency",
@@ -128,7 +141,7 @@ export const achievements = [
   {
     title: "50+ Projects Completed",
     description:
-      "Successfully delivered over 100 video projects across various industries",
+      "Successfully delivered over 100 video projects across various Clients",
     icon: Award,
     color: "text-yellow-400",
   },
@@ -140,7 +153,7 @@ export const achievements = [
     color: "text-green-400",
   },
   {
-    title: "3+ Years Experience",
+    title: "4+ Years Experience",
     description:
       "Professional video editing experience with continuous skill development",
     icon: Camera,

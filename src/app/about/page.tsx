@@ -45,25 +45,25 @@ export default function AboutPage() {
             title=""
             description=""
             header={
-              <div className="relative w-full h-full min-h-[28rem] md:min-h-[16rem] rounded-xl overflow-hidden group-hover/bento:scale-[1.02] transition-transform duration-500">
+              <div className="relative w-full h-full min-h-[32rem] md:min-h-[16rem] rounded-xl overflow-hidden group-hover/bento:scale-[1.02] transition-transform duration-500">
                 <Image
-                  src="/niloybhowmick.png"
-                  alt="Niloy"
+                  src="/himanshu2.png"
+                  alt="Himanshu Singh"
                   fill
-                  className="object-cover object-top grayscale-[0] hover:grayscale-0 transition-all duration-500"
+                  className="object-cover object-centre grayscale-[0] hover:grayscale-0 transition-all duration-500"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent opacity-90" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent opacity-90" />
 
                 {/* Name Overlay */}
-                <div className="absolute bottom-6 left-6 right-6">
+                <div className="absolute bottom-8 left-8 right-8 flex flex-col items-start justify-center z-10">
                   <motion.div
-                    initial={{ opacity: 0, y: 10 }}
+                    initial={{ opacity: 0, y: -20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.2 }}
                     className="text-4xl md:text-6xl font-black text-white leading-tight tracking-tighter"
                   >
-                    NILOY<br />
-                    <span className="text-blue-500">BHOWMICK</span>
+                    HIMANSHU<br />
+                    <span className="text-blue-500">SINGH</span>
                   </motion.div>
                   <div className="h-1 w-16 md:w-20 bg-purple-500 mt-4 rounded-full" />
                   <p className="text-gray-300 mt-4 text-xs md:text-sm font-medium tracking-wide uppercase">
@@ -83,7 +83,7 @@ export default function AboutPage() {
             header={
               <div className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-black to-neutral-900 border border-white/10 flex flex-col items-center justify-center relative overflow-hidden group-hover:border-emerald-500/30 transition-colors py-8 md:py-0">
                 <div className="absolute inset-0 bg-emerald-500/5 blur-3xl rounded-full" />
-                <span className="text-6xl md:text-8xl font-black text-transparent bg-clip-text bg-gradient-to-b from-emerald-400 to-emerald-900 z-10">5+</span>
+                <span className="text-6xl md:text-8xl font-black text-transparent bg-clip-text bg-gradient-to-b from-emerald-400 to-emerald-900 z-10">4+</span>
                 <div className="text-emerald-500/50 text-xs font-mono uppercase tracking-[0.2em] z-10 mt-2">Years Active</div>
               </div>
             }
@@ -139,7 +139,7 @@ export default function AboutPage() {
             header={
               <div className="flex flex-1 h-full w-full items-center justify-between px-6 bg-gradient-to-r from-neutral-900 to-neutral-800 rounded-xl border border-white/5 py-4 md:py-0 min-h-[5rem]">
                 <a href="https://linkedin.com/in/niloy-bhowmick" target="_blank" className="p-3 bg-white/5 rounded-full hover:bg-[#0077b5] hover:scale-110 transition-all duration-300 text-white"><Linkedin size={20} /></a>
-                <a href="https://instagram.com/its.niloybhowmick" target="_blank" className="p-3 bg-white/5 rounded-full hover:bg-pink-600 hover:scale-110 transition-all duration-300 text-white"><Instagram size={20} /></a>
+                <a href="https://www.instagram.com/singh.himanshu9080/" target="_blank" className="p-3 bg-white/5 rounded-full hover:bg-pink-600 hover:scale-110 transition-all duration-300 text-white"><Instagram size={20} /></a>
                 <a href="https://youtube.com/@itsniloybhowmick" target="_blank" className="p-3 bg-white/5 rounded-full hover:bg-red-600 hover:scale-110 transition-all duration-300 text-white"><Youtube size={20} /></a>
               </div>
             }
@@ -148,8 +148,9 @@ export default function AboutPage() {
           />
 
         </BentoGrid>
-
-        {/* Clients Section */}
+            
+        
+        {/* Clients Section 
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -183,7 +184,9 @@ export default function AboutPage() {
               ))}
             </Marquee>
           </div>
-        </motion.div>
+        </motion.div>   
+
+        */}
 
         <CTASection
           title="Ready to Work Together?"

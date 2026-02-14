@@ -8,6 +8,7 @@ import {
   Mail,
   Heart,
   Instagram,
+  Facebook,
 } from "lucide-react";
 
 export default function Footer() {
@@ -21,22 +22,22 @@ export default function Footer() {
     },
     {
       name: "Instagram",
-      href: "https://instagram.com/its.niloybhowmick",
+      href: "https://www.instagram.com/singh.himanshu9080/",
       icon: Instagram,
     },
+    // {
+    //   name: "LinkedIn",
+    //   href: "https://www.linkedin.com/in/niloy-bhowmick",
+    //   icon: Linkedin,
+    // },
     {
-      name: "LinkedIn",
-      href: "https://www.linkedin.com/in/niloy-bhowmick",
-      icon: Linkedin,
-    },
-    {
-      name: "Twitter",
-      href: "#",
-      icon: Twitter,
+      name: "Facebook",
+      href: "https://www.facebook.com/people/Himanshu-Singh/pfbid0euErRBpbnfXbDmxFCbEjowF36JhwdHNR614VcPY2TDE387bL4fixTQNqhSSUprZ5l/",
+      icon: Facebook,
     },
     {
       name: "Email",
-      href: "mailto:contact.niloybhowmick@gmail.com",
+      href: "mailto:himanshusingh9080@gmail.com",
       icon: Mail,
     },
   ];
@@ -48,7 +49,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="space-y-6">
             <h3 className="text-2xl font-bold tracking-tight bg-gradient-to-r from-blue-400 to-purple-600 bg-clip-text text-transparent">
-              Niloy Bhowmick
+              Himanshu Singh
             </h3>
             <p className="text-gray-400 text-sm leading-relaxed max-w-xs">
               Video Editor and Motion Graphics Designer passionate about
@@ -121,12 +122,12 @@ export default function Footer() {
           <p className="text-gray-500 text-sm flex items-center justify-center gap-1.5">
             Made with <Heart className="text-red-500 fill-red-500/20" size={14} /> by{" "}
             <a
-              href="https://www.linkedin.com/in/mdmarufsarker/"
+              href="https://www.linkedin.com/in/mohit-kumar-singh-396a40222/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white transition-colors underline decoration-dotted underline-offset-4"
             >
-              Md. Maruf Sarker
+              Mohit Singh
             </a>{" "}
             © {currentYear}
           </p>
