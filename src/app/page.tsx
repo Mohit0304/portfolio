@@ -161,6 +161,67 @@ export default function HomePage() {
             ))}
           </motion.div>
 
+            {/* Worked With Section */}
+<section className="py-24 px-4 sm:px-6 relative">
+  <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-white/10 to-transparent" />
+
+  <div className="max-w-6xl mx-auto">
+    <motion.div
+      initial={{ opacity: 0, y: 30 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
+      transition={{ duration: 0.8 }}
+      className="text-center mb-16"
+    >
+      <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white">
+        Worked With
+      </h2>
+      <p className="text-gray-400 text-lg max-w-2xl mx-auto">
+        Proud to collaborate with creators, brands, and professionals.
+      </p>
+    </motion.div>
+
+    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8">
+      {[
+        { name: "Ali Khan", img: "/avatars/person1.jpg" },
+        { name: "Hemant Birje", img: "/avatars/person2.jpg" },
+        //{ name: "Person 3", img: "/avatars/person3.jpg" },
+        { name: "Dev Manaria", img: "/avatars/person4 - Copy.jpg" },
+        //{ name: "", img: "/avatars/person5 - Copy.jpg" },
+        //{ name: "Rishi Singh", img: "/avatars/person6 - Copy.jpg" },
+        { name: "Rishi Singh", img: "/avatars/person7 - Copy.jpg" },
+        { name: "Gangotri Media", img: "/avatars/company1.jpg" },
+        { name: "Career- Infinity Classes", img: "/avatars/company2.jpg" },
+        { name: "Coach-UP IAS", img: "/avatars/company3.jpg" },
+        { name: "TopRankers", img: "/avatars/company4.jpg" },
+        { name: "Shrimati VIMLADEVI Trust", img: "/avatars/company5.jpg" },
+      ].map((person, index) => (
+        <motion.div
+          key={person.name}
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6, delay: index * 0.08 }}
+          className="flex flex-col items-center group"
+        >
+          <div className="w-50 h-58 rounded-full overflow-hidden border border-white/10 bg-white/5 p-1 mb-4 group-hover:scale-105 transition-transform duration-300">
+            <Image
+              src={person.img}
+              alt={person.name}
+              width={152}
+              height={152}
+              className="w-full h-full object-cover rounded-full"
+            />
+          </div>
+          <span className="text-sm text-white font-medium group-hover:text-blue-400 transition-colors">
+            {person.name}
+          </span>
+        </motion.div>
+      ))}
+    </div>
+  </div>
+</section>
+
           {selectedCategory === "All" && hasMore && (
             <div className="text-center mt-16">
               <Button onClick={loadMoreProjects} disabled={loading}>
