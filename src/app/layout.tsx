@@ -63,7 +63,7 @@ export const metadata: Metadata = {
     siteName: "Himanshu Singh Portfolio",
     images: [
       {
-        url: "/niloybhowmick.png",
+        url: "/himanshu2.png",
         width: 1200,
         height: 630,
         alt: "Himanshu Singh - Video Editor",
