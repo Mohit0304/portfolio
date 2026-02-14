@@ -62,12 +62,12 @@ export default function ContactPage() {
                 <div>
                   <p className="text-gray-400 text-sm">WhatsApp</p>
                   <a
-                    href="https://wa.me/+918081815891"
+                    href="https://wa.me/+918318657055"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-white hover:text-green-400 transition-colors"
                   >
-                    +91 8081815891
+                    +91 8318657055
                   </a>
                 </div>
               </div>
